@@ -1,0 +1,74 @@
+.section_one__wrapper{
+    @include d-f (flex-start, 35px)
+}
+
+.section__one{
+     background-color: $main-color;
+}
+
+.type__title{
+    font-weight: 600;
+    font-size: 67px;
+    color: white;
+    padding: 80px 30px 20px 115px;
+}
+
+.type__p{
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+    width: 510px;
+    margin-left: 115px;
+    margin-bottom: 30px;
+}
+
+.type__btn{
+    padding: 19px 50px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 115px;
+    background-color: #A259FF;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.bi{
+    color: white;
+}
+
+.type__ul{
+    @include d-f (flex-start,30px);
+    margin-left: 115px;
+    color: white;
+    margin-bottom: 80px;
+}
+
+.li_subtitle{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.li__p{
+    font-size: 24px;
+}
+
+.word__subtitle{
+    font-weight: 600;
+    font-size: 22px;
+    padding: 22px 20px 10px 22px;
+    color: white;
+}
+
+.avatar{
+    @include d-f (flex-start,12px);
+    padding: 0 22px 20px 22px ;
+}
+
+.ava_name__p{
+    color: white;
+}
+
+.for__right__type{
+    background-color: $secondary-color;
+    border-radius: 20px;
+}

@@ -1,0 +1,148 @@
+@font-face {
+  font-family: sara;
+  src: url("../fonts/WorkSans-Black.woff") format(woff), url("../fonts/WorkSans-Black.woff2") format(woff2);
+  font-weight: 900;
+}
+@font-face {
+  font-family: sara;
+  src: url("../fonts/WorkSans-Bold.woff") format(woff), url("../fonts/WorkSans-Bold.woff2") format(woff2);
+  font-weight: 700;
+}
+@font-face {
+  font-family: sara;
+  src: url("../fonts/WorkSans-ExtraBold.woff") format(woff), url("../fonts/WorkSans-ExtraBold.woff2") format(woff2);
+  font-weight: 800;
+}
+@font-face {
+  font-family: sara;
+  src: url("../fonts/WorkSans-ExtraLight.woff") format(woff), url("../fonts/WorkSans-ExtraLight.woff2") format(woff2);
+  font-weight: 600;
+}
+@font-face {
+  font-family: sara;
+  src: url("../fonts/WorkSans-Light.woff") format(woff), url("../fonts/WorkSans-Light.woff2") format(woff2);
+  font-weight: 500;
+}
+@font-face {
+  font-family: sara;
+  src: url("../fonts/WorkSans-Medium.woff") format(woff), url("../fonts/WorkSans-Medium.woff2") format(woff2);
+  font-weight: 400;
+}
+@font-face {
+  font-family: sara;
+  src: url("../fonts/WorkSans-Regular.woff") format(woff), url("../fonts/WorkSans-Regular.woff2") format(woff2);
+  font-weight: 300;
+}
+@font-face {
+  font-family: sara;
+  src: url("../fonts/WorkSans-SemiBold.woff") format(woff), url("../fonts/WorkSans-SemiBold.woff2") format(woff2);
+  font-weight: 200;
+}
+@font-face {
+  font-family: sara;
+  src: url("../fonts/WorkSans-Thin.woff") format(woff), url("../fonts/WorkSans-Thin.woff2") format(woff2);
+  font-weight: 100;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 60px;
+  margin: 0 auto;
+}
+
+.section_one__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 35px;
+}
+
+.section__one {
+  background-color: #2b2b2b;
+}
+
+.type__title {
+  font-weight: 600;
+  font-size: 67px;
+  color: white;
+  padding: 80px 30px 20px 115px;
+}
+
+.type__p {
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+  width: 510px;
+  margin-left: 115px;
+  margin-bottom: 30px;
+}
+
+.type__btn {
+  padding: 19px 50px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 115px;
+  background-color: #A259FF;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.bi {
+  color: white;
+}
+
+.type__ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-left: 115px;
+  color: white;
+  margin-bottom: 80px;
+}
+
+.li_subtitle {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.li__p {
+  font-size: 24px;
+}
+
+.word__subtitle {
+  font-weight: 600;
+  font-size: 22px;
+  padding: 22px 20px 10px 22px;
+  color: white;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 12px;
+  padding: 0 22px 20px 22px;
+}
+
+.ava_name__p {
+  color: white;
+}
+
+.for__right__type {
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}/*# sourceMappingURL=style.css.map */

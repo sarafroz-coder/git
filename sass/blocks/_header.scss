@@ -1,0 +1,35 @@
+.left_heading{
+
+}
+
+.header_left {
+  display: flex;
+  gap: 10px;
+  height: 32px;
+}
+
+.header_left-content {
+  margin-top: 34px;
+}
+
+.nft_girl {
+  margin-top: -10px;
+}
+
+.header_menu {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  margin-top: -30px;
+}
+
+.menu_item {
+  @include font;
+}
+
+.header_button {
+  @include btn;
+  position: absolute;
+  top: 20px;
+  left: 1800px;
+}
