@@ -63,6 +63,33 @@ a {
   margin: 0 auto;
 }
 
+.header_left {
+  display: flex;
+  gap: 10px;
+  height: 32px;
+}
+
+.header_left-content {
+  margin-top: 34px;
+}
+
+.nft_girl {
+  margin-top: -10px;
+}
+
+.header_menu {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
+  margin-top: -30px;
+}
+
+.header_button {
+  position: absolute;
+  top: 20px;
+  left: 1800px;
+}
+
 .section_one__wrapper {
   display: flex;
   align-items: center;
@@ -145,4 +172,90 @@ a {
 .for__right__type {
   background-color: #3B3B3B;
   border-radius: 20px;
+}
+
+.section__three {
+  background-color: #2b2b2b;
+}
+
+.three__top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 330px;
+}
+
+.ikita__title {
+  font-weight: 600;
+  font-size: 38px;
+  color: white;
+  margin-left: 115px;
+}
+
+.ikita__p {
+  font-size: 22px;
+  color: white;
+  margin-left: 115px;
+  margin-top: 10px;
+}
+
+.top__btn {
+  background-color: #2b2b2b;
+  border: 2px solid #a259ff;
+  padding: 19px 50px;
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+  border-radius: 20px;
+}
+
+.bi-airplane {
+  color: #a259ff;
+}
+
+.anime-oragan {
+  background-color: #3b3b3b;
+  width: 240px;
+  height: 238px;
+  margin-top: 60px;
+  border-radius: 20px;
+}
+
+.three__li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.anime__img {
+  width: 110px;
+  height: 120px;
+  margin-top: 20px;
+  margin-left: 65px;
+}
+
+.anime__name {
+  font-weight: 600;
+  font-size: 22px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 65px;
+}
+
+.anime__info {
+  color: #858584;
+}
+
+.anime__infotwo {
+  color: white;
+}
+
+.p {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-left: 40px;
+  margin-top: 5px;
 }/*# sourceMappingURL=style.css.map */

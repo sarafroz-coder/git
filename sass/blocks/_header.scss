@@ -24,11 +24,11 @@
 }
 
 .menu_item {
-  @include font;
+  // @include d-f;
 }
 
 .header_button {
-  @include btn;
+  // @include btn;
   position: absolute;
   top: 20px;
   left: 1800px;
